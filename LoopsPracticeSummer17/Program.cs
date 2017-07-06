@@ -106,7 +106,17 @@ namespace LoopsPracticeSummer17
             //    Console.WriteLine(artist);
             //}
 
+            //While loop is used when you want a chunk of code to run only if a 
+            //condition is met first.
+            //While something is TRUE, do this thing.
 
+            Console.WriteLine("What is your first name?");
+            string firstName = Console.ReadLine();
+            while(firstName.ToUpper() == "JOE")
+            {
+                Console.WriteLine("Dude, you are amazing.");
+                break;
+            }
 
 
 
