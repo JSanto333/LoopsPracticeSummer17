@@ -157,15 +157,46 @@ namespace LoopsPracticeSummer17
             //Using a Do-While Loop, repeat the code if the user says "YES"
 
 
-            string addClass;
-            do
+
+
+
+
+
+            //NESTED LOOPS
+            //Loop inside of another loop
+            //the inner loop is executed more times than the outer loop
+            //REAL LIFE EXAMPLE - Clock
+
+            //Create a nested loop structure that prints:
+            // 1234
+            // 1234
+
+            //for(int rows = 1; rows <= 2; rows++)
+            //{
+            //    for(int columns = 1; columns <= 4; columns++)
+            //    {
+            //        Console.Write(columns);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //Print a triangle 
+            //Outer loop will go line by line
+            //The inner loop will go over different elements in the line.
+            //Result:
+            //1
+            //1 2
+            //1 2 3
+            //1 2 3 4 ...
+
+            for(int rows = 1; rows <= 4; rows++)
             {
-                Console.WriteLine("Would you like to add a class?");
-                Console.WriteLine("")
+                for(int columns = 1; columns <= 2; columns++) 
+                {
+                    Console.Write(columns);
+                    for(int columns =1; columns <= 3; columns++)
+                }
             }
-
-
-
 
 
 
