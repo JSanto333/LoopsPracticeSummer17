@@ -24,6 +24,18 @@ namespace LoopsPracticeSummer17
             //{
             //      Do something
             //}
+
+            //int i;
+            //for (int i = 15; i > 0; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine("After the loop has run, i now has the value of " + i);
+
+            for (int i = 50; i <= 100; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
