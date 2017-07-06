@@ -189,16 +189,27 @@ namespace LoopsPracticeSummer17
             //1 2 3
             //1 2 3 4 ...
 
-            //for(int rows = 1; rows <= 4; rows++)
+           
+
+            //Console.WriteLine("How many rows do you want in your triangle?");
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int row = 1; row <= n; row++)
+
             //{
-            //    for(int columns = 1; columns <= 2; columns++) 
+
+            //    for (int col = 1; col <= row; col++)
+
             //    {
-            //        Console.Write(columns);
-            //        for(int columns =1; columns <= 3; columns++)
+
+            //        Console.Write(col + " ");
+
             //    }
+
+            //    Console.WriteLine();
+
             //}
-
-
 
 
 
