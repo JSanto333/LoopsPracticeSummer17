@@ -189,14 +189,22 @@ namespace LoopsPracticeSummer17
             //1 2 3
             //1 2 3 4 ...
 
-            for(int rows = 1; rows <= 4; rows++)
-            {
-                for(int columns = 1; columns <= 2; columns++) 
-                {
-                    Console.Write(columns);
-                    for(int columns =1; columns <= 3; columns++)
-                }
-            }
+            //for(int rows = 1; rows <= 4; rows++)
+            //{
+            //    for(int columns = 1; columns <= 2; columns++) 
+            //    {
+            //        Console.Write(columns);
+            //        for(int columns =1; columns <= 3; columns++)
+            //    }
+            //}
+
+
+
+
+
+
+
+
 
 
 
