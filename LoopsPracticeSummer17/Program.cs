@@ -228,6 +228,37 @@ namespace LoopsPracticeSummer17
             //}
 
 
+            //string[] faveMovies = { "Star Wars", "Anchorman", "Avatar", "Serenity", "Super Troopers" };
+            //foreach(string movie in faveMovies)
+            //{
+            //    if (movie.StartsWith("A"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("E"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("I"))
+            //    {
+            //        continue;
+            //    }
+            //    if (movie.StartsWith("O"))
+            //    {
+            //        continue;
+            //    }
+            //    if (movie.StartsWith("U"))
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(movie);
+            //    }
+            //}
+
+
+
 
 
 
