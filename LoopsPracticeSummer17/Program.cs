@@ -257,8 +257,23 @@ namespace LoopsPracticeSummer17
             //    }
             //}
 
+            //I know I need to ask the user for an integer, and get the input, and save it
+            Console.WriteLine("Please enter an integer (whole number).");
+            int userNum = int.Parse(Console.ReadLine());
 
-
+            //"Evenly divisible" is a good indicator of modulus
+            //We have to check if the input % 3 == 0
+            //We need a conditional and if the input % 3 == 0 we need to write "You won!"
+            //and we need to exit the loop.
+            //If their input % 3 in not equal to 0, we have to let them know "You lost!"
+            //and ask for another integer. We repeat this, until they win.
+            while(userNum % 3 != 0)
+            {
+                Console.WriteLine("You lost!");
+                Console.WriteLine("Please enter another numnber.");
+                userNum = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("You won!");
 
 
 
