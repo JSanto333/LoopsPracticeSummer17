@@ -189,7 +189,7 @@ namespace LoopsPracticeSummer17
             //1 2 3
             //1 2 3 4 ...
 
-           
+
 
             //Console.WriteLine("How many rows do you want in your triangle?");
 
@@ -207,11 +207,25 @@ namespace LoopsPracticeSummer17
 
             //    }
 
-            //    Console.WriteLine();
+            //    Console.WriteLine();  
 
             //}
 
+            //int multNum = 1;
+            //Console.WriteLine("Enter in your first number.");
+            //int firstNumber = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter in your second number.");
+            //int secondNumber = int.Parse(Console.ReadLine());
 
+            //for(int i = 1; i <= firstNumber; i++)
+            //{
+            //    for(int j = 1; j <= secondNumber; j++)
+            //    {
+            //        Console.Write(multNum * j + " ");
+            //    }
+            //    multNum += 1;
+            //    Console.WriteLine();
+            //}
 
 
 
